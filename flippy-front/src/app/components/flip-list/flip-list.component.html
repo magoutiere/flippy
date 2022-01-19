@@ -1,0 +1,6 @@
+<nz-list nzBordered nzHeader="Flips">
+  <nz-list-item *ngFor="let flip of flips">
+    {{ flip.name }}
+    <nz-switch [(ngModel)]="flip.state" (click)="updateFlip(flip)"></nz-switch>
+  </nz-list-item>
+</nz-list>
