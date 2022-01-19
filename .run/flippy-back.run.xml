@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="flippy-back" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="flippy-back" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="fr.flippy.FlippyBackApplication" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
